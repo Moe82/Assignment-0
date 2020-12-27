@@ -1,5 +1,11 @@
 function sumOfNumsWithinARange(nums, start, end) {
-  // Insert code here;
+  let count = 0; 
+    for (num of nums) {
+      if (num >= start && num <= end) {
+        count++;
+      }
+    }
+  return count;
 }
 
 // Do not edit this line;

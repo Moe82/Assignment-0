@@ -1,5 +1,11 @@
 function sumOfAllEvenNumbers(nums) {
-  // Insert code here;
+  let numEven = 0; 
+    for (num of nums) {
+      if (num % 2 == 0) {
+        numEven++;
+      }
+    }
+  return numEven;
 }
 
 // Do not edit this line;
